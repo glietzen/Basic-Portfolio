@@ -191,6 +191,10 @@ footer h4 {
         margin: 0;
         width: 100%;
     }
+    .nested {
+        display: grid;
+        grid-auto-rows: minmax(100px, auto);
+    }
 }
 
 /* Form */
